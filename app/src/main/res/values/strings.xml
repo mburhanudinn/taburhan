@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My App</string>
+
+    <string name="radio_akademik">Akademik</string>
+    <string name="radio_kemahasiswaan">Kemahasiswaan</string>
+    <string name="radio_sarana">Sarana dan Prasarana</string>
+    <string name="radio_lainya">Lainya</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tonikamitv.loginregister">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Login LAPOR"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UserAreaActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="LAPOR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LaporActivity"
+            android:label="Buat Laporan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LihatActivity"
+            android:label="Lihat Laporan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CariActivity"
+            android:label="Cari Laporan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PanduanActivity"
+            android:label="Panduan Lapor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TentangActivity"
+            android:label="Tentang Kami"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KontakActivity"
+            android:label="Kontak Kami"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DetailLaporanActivity"
+            android:label="Laporan"
+            android:screenOrientation="portrait" ></activity>
+    </application>
+
+</manifest>
